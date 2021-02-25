@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+/* .header::after{
+    clear: both;
+    content: "";
+    display: table;
+} */
+
+header{
+    background-color: rgb(173, 81, 173);
+    height: 55px;
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;;
+}
+
+.main-first{
+    background-color: rgb(203, 212, 65);
+    height: 170px;
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;
+}
+.main-second{
+    background-color: rgb(127, 177, 192);
+    height: 200px;
+    width: 45%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
