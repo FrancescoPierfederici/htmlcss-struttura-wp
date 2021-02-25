@@ -4,16 +4,8 @@
     box-sizing:border-box;
 }
 
-
-
-/* .header::after{
-    clear: both;
-    content: "";
-    display: table;
-} */
-
 header{
-    background-color: rgb(173, 81, 173);
+    background-color: rgb(241, 131, 241);
     height: 55px;
     width: 45%;
     margin: auto;
@@ -22,21 +14,54 @@ header{
 
 .main-first{
     background-color: rgb(203, 212, 65);
-    height: 170px;
+    height: 190px;
     width: 45%;
     margin: auto;
     margin-top: 10px;
 }
 .main-second{
-    background-color: rgb(127, 177, 192);
-    height: 200px;
+    background-color: rgb(11, 141, 180);
+    height: 250px;
     width: 45%;
     margin: auto;
     margin-top: 10px;
 }
 
+footer{
+    background-color: rgb(155, 35, 155);
+    height: 40px;
+    width: 45%;
+    margin: auto;
+    margin-top: 5px;;
+}
+.header-float{
+    background-color: rgb(136, 201, 221);
+    height:28px ;
+    margin-bottom:2%;
+}
+.f-left{
+    float: left;
+}
+.col{
+    height:200px;
+    background-color:rgb(136, 201, 221);
+}
+ .col-left{
+     width:20%;
+ }
+.col-right{
+    width:20%;
 
-
-
+}
+.col-center{
+    width:56%;
+    margin-left:2%;
+    margin-right:2%;
+}
+.row::after{
+    clear:both;
+    content:""
+    display:table;
+}
 
 
